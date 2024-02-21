@@ -3,7 +3,6 @@ def lab_4():
 
     someText1 = "мы"
     someText2 = "семью женами"
-    someText3 = "семь мешков"
     someText4 = "семь кошек"
     someText5 = "семь котят"
 
@@ -20,16 +19,8 @@ def lab_4():
         print(numRunner)
         return
 
-    if someText3 in riddle:
-        numBags = numWife * 7
-        numRunner += numBags
-    else:
-        numBags = 0
-        print(numRunner)
-        return
-
     if someText4 in riddle:
-        numCats = numBags * 7
+        numCats = numWife * 7
         numRunner += numCats
     else:
         numCats = 0
